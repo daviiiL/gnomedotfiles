@@ -1,0 +1,36 @@
+{
+  // vim mode
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  "ui_font_family": "Adwaita Sans",
+  "buffer_font_family": "SauceCodePro Nerd Font",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": "Catppuccin Mocha",
+
+  "relative_line_numbers": true,
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
+  },
+  "inlay_hints": {
+    "enabled": false
+  },
+  "show_edit_predictions": false
+}
