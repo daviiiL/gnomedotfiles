@@ -52,10 +52,10 @@
   {
     "context": "EmptyPane || SharedScreen",
     "bindings": {
-      // Open file finder
       "space f f": "file_finder::Toggle",
-      // Open recent project
-      "space f p": "projects::OpenRecent"
+      "space f p": "projects::OpenRecent",
+      "ctrl-l": "workspace::ToggleLeftDock",
+      "ctrl-r": "workspace::ToggleRightDock"
     }
   }
 ]
