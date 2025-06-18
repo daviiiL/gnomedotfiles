@@ -1,5 +1,10 @@
 {
   // vim mode
+  "agent": {
+    "model_parameters": [],
+    "default_profile": "minimal",
+    "version": "2"
+  },
   "vim_mode": true,
   "base_keymap": "VSCode",
 
@@ -32,5 +37,6 @@
   "inlay_hints": {
     "enabled": false
   },
-  "show_edit_predictions": false
+  "show_edit_predictions": false,
+  "soft_wrap": "bounded"
 }
